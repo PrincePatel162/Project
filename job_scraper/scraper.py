@@ -5,7 +5,7 @@ import pandas as pd
 # Website URL
 url = "https://realpython.github.io/fake-jobs/"
 
-# Headers
+
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
@@ -51,11 +51,11 @@ try:
     # Convert List To DataFrame
     df = pd.DataFrame(job_list)
 
-    # Print Data
+   
     print("\n===== JOB DATA =====\n")
     print(df)
 
-    # Save CSV File
+ 
     df.to_csv("jobs_data.csv", index=False)
 
     print("\nCSV File Created Successfully!")
