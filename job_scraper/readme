@@ -1,0 +1,1 @@
+Job Data Web Scraper – Developed a Python web scraping project using Requests, BeautifulSoup, and Pandas to extract job details such as title, company, and location from a website and store the data in a CSV file.
